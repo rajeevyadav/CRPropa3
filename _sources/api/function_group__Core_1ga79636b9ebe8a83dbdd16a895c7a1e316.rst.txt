@@ -1,0 +1,13 @@
+.. _exhale_function_group__Core_1ga79636b9ebe8a83dbdd16a895c7a1e316:
+
+Function crpropa::turbulentCorrelationLength
+============================================
+
+- Defined in :ref:`file_include_crpropa_GridTurbulence.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: crpropa::turbulentCorrelationLength(double, double, double)

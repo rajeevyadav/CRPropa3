@@ -1,0 +1,40 @@
+
+.. _program_listing_file_include_crpropa_GridTurbulence.h:
+
+Program Listing for File GridTurbulence.h
+=========================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_include_crpropa_GridTurbulence.h>` (``include/crpropa/GridTurbulence.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   #ifndef CRPROPA_GRIDTURBULENCE_H
+   #define CRPROPA_GRIDTURBULENCE_H
+   
+   #include "crpropa/Grid.h"
+   #include "crpropa/GridTools.h"
+   
+   namespace crpropa {
+   double turbulentCorrelationLength(double lMin, double lMax,
+                   double alpha = (-11./3.));
+   
+   #ifdef CRPROPA_HAVE_FFTW3F
+   
+   std::vector<std::pair<int, GridPrecision> > gridPowerSpectrum(ref_ptr<VectorGrid> grid); 
+   
+   void initTurbulence(ref_ptr<VectorGrid> grid, double Brms, double lMin, double lMax, 
+              double alpha = -11./3., int seed = 0);
+   
+   void initHelicalTurbulence(ref_ptr<VectorGrid> grid, double Brms, double lMin, double lMax, 
+              double alpha = -11./3., int seed = 0, double H = 0);
+   
+   void initTurbulenceWithBendover(ref_ptr<VectorGrid> grid, double Brms, double lMin, double lMax,
+              double alpha = -11./3., int seed = 0, double lambda = 1);
+   
+   #endif // CRPROPA_HAVE_FFTW3F
+   
+   } // namespace crpropa
+   
+   #endif // CRPROPA_GRIDTOOLS_H

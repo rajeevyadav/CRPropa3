@@ -1,0 +1,62 @@
+
+.. _program_listing_file_include_crpropa_GridTools.h:
+
+Program Listing for File GridTools.h
+====================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_include_crpropa_GridTools.h>` (``include/crpropa/GridTools.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   #ifndef CRPROPA_GRIDTOOLS_H
+   #define CRPROPA_GRIDTOOLS_H
+   
+   #include "crpropa/Grid.h"
+   #include "crpropa/magneticField/MagneticField.h"
+   #include <string>
+   
+   namespace crpropa {
+   Vector3f meanFieldVector(ref_ptr<VectorGrid> grid);
+   
+   double meanFieldStrength(ref_ptr<ScalarGrid> grid);
+   double meanFieldStrength(ref_ptr<VectorGrid> grid);
+   
+   double rmsFieldStrength(ref_ptr<ScalarGrid> grid);
+   double rmsFieldStrength(ref_ptr<VectorGrid> grid);
+   
+   void scaleGrid(ref_ptr<ScalarGrid> grid, double a);
+   void scaleGrid(ref_ptr<VectorGrid> grid, double a);
+   
+   void fromMagneticField(ref_ptr<VectorGrid> grid, ref_ptr<MagneticField> field);
+   
+   void fromMagneticFieldStrength(ref_ptr<ScalarGrid> grid, ref_ptr<MagneticField> field);
+   
+   void loadGrid(ref_ptr<VectorGrid> grid, std::string filename,
+                   double conversion = 1);
+   
+   void loadGrid(ref_ptr<ScalarGrid> grid, std::string filename,
+                   double conversion = 1);
+   
+   void dumpGrid(ref_ptr<VectorGrid> grid, std::string filename,
+                   double conversion = 1);
+   
+   void dumpGrid(ref_ptr<ScalarGrid> grid, std::string filename,
+                   double conversion = 1);
+   
+   void loadGridFromTxt(ref_ptr<VectorGrid> grid, std::string filename,
+                   double conversion = 1);
+   
+   void loadGridFromTxt(ref_ptr<ScalarGrid> grid, std::string filename,
+                   double conversion = 1);
+   
+   void dumpGridToTxt(ref_ptr<VectorGrid> grid, std::string filename,
+                   double conversion = 1);
+   
+   void dumpGridToTxt(ref_ptr<ScalarGrid> grid, std::string filename,
+                   double conversion = 1);
+   
+   } // namespace crpropa
+   
+   #endif // CRPROPA_GRIDTOOLS_H

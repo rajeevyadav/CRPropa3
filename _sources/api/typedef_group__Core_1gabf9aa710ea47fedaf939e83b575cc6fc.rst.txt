@@ -1,0 +1,13 @@
+.. _exhale_typedef_group__Core_1gabf9aa710ea47fedaf939e83b575cc6fc:
+
+Typedef crpropa::ScalarGrid
+===========================
+
+- Defined in :ref:`file_include_crpropa_Grid.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: crpropa::ScalarGrid

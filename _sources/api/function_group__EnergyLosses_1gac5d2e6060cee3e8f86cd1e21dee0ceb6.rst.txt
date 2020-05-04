@@ -1,0 +1,13 @@
+.. _exhale_function_group__EnergyLosses_1gac5d2e6060cee3e8f86cd1e21dee0ceb6:
+
+Function crpropa::photonFieldName
+=================================
+
+- Defined in :ref:`file_include_crpropa_PhotonBackground.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: crpropa::photonFieldName(PhotonField)

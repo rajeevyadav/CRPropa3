@@ -1,0 +1,13 @@
+.. _exhale_function_group__Core_1ga40a9002b8e9bbf1305b5266e7f74aa71:
+
+Function crpropa::gridPowerSpectrum
+===================================
+
+- Defined in :ref:`file_include_crpropa_GridTurbulence.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: crpropa::gridPowerSpectrum(ref_ptr<VectorGrid>)

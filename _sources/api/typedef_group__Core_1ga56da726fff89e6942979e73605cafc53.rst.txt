@@ -1,0 +1,13 @@
+.. _exhale_typedef_group__Core_1ga56da726fff89e6942979e73605cafc53:
+
+Typedef crpropa::VectorGrid
+===========================
+
+- Defined in :ref:`file_include_crpropa_Grid.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: crpropa::VectorGrid

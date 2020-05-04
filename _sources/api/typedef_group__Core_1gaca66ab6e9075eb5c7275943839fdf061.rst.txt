@@ -1,0 +1,13 @@
+.. _exhale_typedef_group__Core_1gaca66ab6e9075eb5c7275943839fdf061:
+
+Typedef crpropa::GridPrecision
+==============================
+
+- Defined in :ref:`file_include_crpropa_Grid.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: crpropa::GridPrecision

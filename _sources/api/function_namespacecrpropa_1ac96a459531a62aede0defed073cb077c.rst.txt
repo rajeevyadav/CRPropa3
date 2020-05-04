@@ -1,0 +1,13 @@
+.. _exhale_function_namespacecrpropa_1ac96a459531a62aede0defed073cb077c:
+
+Function crpropa::scalingKneiske04
+==================================
+
+- Defined in :ref:`file_src_PhotonBackground.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: crpropa::scalingKneiske04("IRB_Kneiske04")

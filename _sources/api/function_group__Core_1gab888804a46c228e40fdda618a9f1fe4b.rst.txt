@@ -1,0 +1,13 @@
+.. _exhale_function_group__Core_1gab888804a46c228e40fdda618a9f1fe4b:
+
+Function crpropa::meanFieldStrength(ref_ptr<ScalarGrid>)
+========================================================
+
+- Defined in :ref:`file_include_crpropa_GridTools.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: crpropa::meanFieldStrength(ref_ptr<ScalarGrid>)

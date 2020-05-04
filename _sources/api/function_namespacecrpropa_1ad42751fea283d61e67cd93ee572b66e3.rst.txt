@@ -1,0 +1,13 @@
+.. _exhale_function_namespacecrpropa_1ad42751fea283d61e67cd93ee572b66e3:
+
+Function crpropa::scalingDominguez11
+====================================
+
+- Defined in :ref:`file_src_PhotonBackground.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: crpropa::scalingDominguez11("IRB_Dominguez11")

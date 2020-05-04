@@ -1,0 +1,16 @@
+.. _exhale_struct_structcrpropa_1_1PhotonFieldScaling:
+
+Struct PhotonFieldScaling
+=========================
+
+- Defined in :ref:`file_src_PhotonBackground.cpp`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: crpropa::PhotonFieldScaling
+   :members:
+   :protected-members:
+   :undoc-members:

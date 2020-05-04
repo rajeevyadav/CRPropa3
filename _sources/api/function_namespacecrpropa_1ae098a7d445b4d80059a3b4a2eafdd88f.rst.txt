@@ -1,0 +1,13 @@
+.. _exhale_function_namespacecrpropa_1ae098a7d445b4d80059a3b4a2eafdd88f:
+
+Function crpropa::scalingFranceschini08
+=======================================
+
+- Defined in :ref:`file_src_PhotonBackground.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: crpropa::scalingFranceschini08("IRB_Franceschini08")

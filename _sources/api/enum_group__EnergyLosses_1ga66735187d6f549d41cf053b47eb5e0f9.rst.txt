@@ -1,0 +1,13 @@
+.. _exhale_enum_group__EnergyLosses_1ga66735187d6f549d41cf053b47eb5e0f9:
+
+Enum PhotonField
+================
+
+- Defined in :ref:`file_include_crpropa_PhotonBackground.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: crpropa::PhotonField

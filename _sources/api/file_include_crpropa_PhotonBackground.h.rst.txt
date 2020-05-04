@@ -1,0 +1,61 @@
+
+.. _file_include_crpropa_PhotonBackground.h:
+
+File PhotonBackground.h
+=======================
+
+|exhale_lsh| :ref:`Parent directory <dir_include_crpropa>` (``include/crpropa``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/crpropa/PhotonBackground.h``)
+---------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_crpropa_PhotonBackground.h.rst
+
+
+
+
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_crpropa`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classcrpropa_1_1PhotonFieldSampling`
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_group__EnergyLosses_1ga66735187d6f549d41cf053b47eb5e0f9`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_group__EnergyLosses_1gac5d2e6060cee3e8f86cd1e21dee0ceb6`
+
+- :ref:`exhale_function_group__EnergyLosses_1ga17956cdbce1da88bdf03d7b73c0dcf95`
+

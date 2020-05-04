@@ -1,0 +1,13 @@
+.. _exhale_function_namespacecrpropa_1a7c07e59a44b6980c3984e0c24f3b0b78:
+
+Function crpropa::scalingFinke10
+================================
+
+- Defined in :ref:`file_src_PhotonBackground.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: crpropa::scalingFinke10("IRB_Finke10")

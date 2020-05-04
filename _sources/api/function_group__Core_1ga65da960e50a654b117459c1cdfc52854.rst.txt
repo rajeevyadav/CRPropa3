@@ -1,0 +1,13 @@
+.. _exhale_function_group__Core_1ga65da960e50a654b117459c1cdfc52854:
+
+Function crpropa::dumpGrid(ref_ptr<VectorGrid>, std::string, double)
+====================================================================
+
+- Defined in :ref:`file_include_crpropa_GridTools.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: crpropa::dumpGrid(ref_ptr<VectorGrid>, std::string, double)

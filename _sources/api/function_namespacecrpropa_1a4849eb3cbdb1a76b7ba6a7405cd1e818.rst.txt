@@ -1,0 +1,13 @@
+.. _exhale_function_namespacecrpropa_1a4849eb3cbdb1a76b7ba6a7405cd1e818:
+
+Function crpropa::scalingStecker16_upper
+========================================
+
+- Defined in :ref:`file_src_PhotonBackground.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: crpropa::scalingStecker16_upper("IRB_Stecker16_upper")

@@ -1,0 +1,13 @@
+.. _exhale_function_group__Core_1ga4e11f05a0e47b8a04e6027ab8e70a1a3:
+
+Function crpropa::loadGridFromTxt(ref_ptr<ScalarGrid>, std::string, double)
+===========================================================================
+
+- Defined in :ref:`file_include_crpropa_GridTools.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: crpropa::loadGridFromTxt(ref_ptr<ScalarGrid>, std::string, double)

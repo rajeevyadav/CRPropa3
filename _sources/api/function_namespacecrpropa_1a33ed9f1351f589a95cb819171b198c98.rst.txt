@@ -1,0 +1,13 @@
+.. _exhale_function_namespacecrpropa_1a33ed9f1351f589a95cb819171b198c98:
+
+Function crpropa::scalingGilmore12
+==================================
+
+- Defined in :ref:`file_src_PhotonBackground.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: crpropa::scalingGilmore12("IRB_Gilmore12")

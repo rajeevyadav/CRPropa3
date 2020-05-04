@@ -1,0 +1,13 @@
+.. _exhale_function_group__Core_1ga2293dcdae415ad702c91b06ca63ef742:
+
+Function crpropa::initTurbulenceWithBendover
+============================================
+
+- Defined in :ref:`file_include_crpropa_GridTurbulence.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: crpropa::initTurbulenceWithBendover(ref_ptr<VectorGrid>, double, double, double, double, int, double)

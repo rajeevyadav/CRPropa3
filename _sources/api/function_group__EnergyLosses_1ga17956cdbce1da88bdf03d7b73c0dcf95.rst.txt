@@ -1,0 +1,13 @@
+.. _exhale_function_group__EnergyLosses_1ga17956cdbce1da88bdf03d7b73c0dcf95:
+
+Function crpropa::photonFieldScaling
+====================================
+
+- Defined in :ref:`file_include_crpropa_PhotonBackground.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: crpropa::photonFieldScaling(PhotonField, double)
